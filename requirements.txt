@@ -1,0 +1,27 @@
+langchain
+langgraph
+langchain-community
+
+# Embeddings
+sentence-transformers
+tiktoken
+
+# Vector DB
+faiss-cpu
+
+# LLM Providers
+openai
+huggingface-hub
+
+# API Layer
+fastapi
+uvicorn
+
+# Background + Cache
+redis
+celery
+
+# Utils
+pydantic
+python-dotenv
+requests

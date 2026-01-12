@@ -1,0 +1,30 @@
+# --- AI & Environment Variables ---
+.env
+.env.local
+.env.*
+secrets.py
+# Ignore local database for LangGraph persistence (if using SQLite)
+*.sqlite
+*.db
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# --- LangGraph & Tools ---
+# If using LangGraph Studio or local traces
+.langgraph_api/
+.langchain/
+# LangGraph persistence files (if you name them specifically)
+checkpoints/
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

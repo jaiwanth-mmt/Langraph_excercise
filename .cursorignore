@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+.venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets
+.env
+*.env
+
+# Jupyter checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Data files (optional but recommended)
+data/
+*.csv
+*.json
+*.pkl
+*.npz
